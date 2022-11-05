@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: #737373;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+img {
+
+    margin-left: 25%;
+}
