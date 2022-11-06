@@ -2,6 +2,14 @@ h1, h2, h3 , p {
     text-align: center;
 }
 
+
+h3 {
+    padding: 10px 0px 60px 0px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
 body {
     margin: 0px 0px 0px 0px;
     background-image: url("fondo.jpg");
@@ -14,76 +22,176 @@ h3 {
     background-color: #028002;
 }
 
+#colores {
+    text-align: center;
+}
+
 #black {
     background-color: black;
+    padding: 40px;
 }
 
 #teal {
     background-color: #018182;
+    padding: 40px;
 }
 
 #blue {
     background-color: #0000fe;
+    padding: 40px;
 }
 
 #navy {
     background-color: #020181;
+    padding: 40px 35px 40px 40px;
 }
 
 #lime {
     background-color: #00ff01;
+    padding: 40px;
 }
 
 #white {
     background-color: #ffffff;
+    padding: 40px 35px 40px 40px;
+
 }
 
 #purple {
     background-color: #7f017f;
+    padding: 40px;
 }
 
 #yellow {
     background-color: #ffff00;
+    padding: 40px;
 }
 
 #olive {
     background-color: #7f8000;
+    padding: 40px;
 }
 
 #red {
     background-color:#fe0000;
+    padding: 40px 35px 40px 40px;
 }
 
 #marron {
     background-color: #0a0200;
+    padding: 40px;
 }
 
 #gray {
     background-color: #808080;
+    padding: 40px 35px 40px 40px;
 }
 
 #olive-dos {
     background-color: #7f8000;
+    padding: 40px;
 }
 
 #red-dos {
     background-color: #fe0000;
+    padding: 40px;
 }
 
 #fuchsia {
     background-color: #ff01ff;
+    padding: 40px;
 }
 
 #green {
     background-color: #028002;
+    padding: 40px 200px 40px 40px;
 }
 
-#linea1, #linea2, #linea3 {
+#linea1, #linea2, #linea3, .linea1, .linea2 {
     text-align: center;
 }
 
-#linea1 p, #linea2 p, #linea3 p {
+#linea1 p, #linea2 p, #linea3 p, .linea1 p, .linea2 p {
     
     display: inline-block;
+    display: inline-flex;
+    clear: both;
+    
 
 }
+
+
+#linea1 p, #linea2 p, #linea3 p {
+     font-size: 17px;
+}
+
+.linea1 p, .linea2 p {
+    font-size: 26px;
+}
+
+.black {
+    color: #000000;
+}
+
+.teal {
+    color: #1A7F7F;
+}
+
+.blue {
+    color: #0000fe;
+}
+
+.navy {
+    color: #020181;
+}
+
+.lime {
+    color: #00ff01;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.purple {
+    color: #7f017f;
+}
+
+.yellow {
+    color: #ffff00;
+}
+
+.olive {
+    color: #7f8000;
+}
+
+.red {
+    color: #fe0000;
+}
+
+.marron {
+    color: #0a0200;
+}
+
+.gray {
+    color: #808080;
+}
+
+.fucshia {
+    color: #ff01ff;
+}
+
+.green {
+    color: #028002;
+}
+
+.aqua {
+    color: #14fbfa;
+}
+
+.silver {
+    color: #c0bfc1;
+}
+
+
+
